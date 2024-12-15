@@ -1,0 +1,29 @@
+.app {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+  }
+  
+  .form-step {
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .form-step input {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-step button {
+    margin: 5px;
+    padding: 10px 20;}
+  

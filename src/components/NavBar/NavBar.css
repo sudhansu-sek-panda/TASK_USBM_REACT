@@ -1,0 +1,98 @@
+/* Global Reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #ffffff;
+}
+
+/* NavBar Container */
+.navbar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00bcd4; /* Cyan */
+    padding: 20px 0;
+}
+
+/* NavBar Heading */
+.navbar-container h2 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* NavBar Navigation */
+nav {
+    display: flex;
+    /* justify-content: center; */
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* List Styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    padding: 20;
+    /* margin: 12; */
+    margin-top: 9px;
+
+}
+
+/* Link Styling */
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+    padding: 10px 20px;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: #007c91; /* Darker cyan */
+    border-radius: 5px;
+    width: 300px;
+
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .navbar-container {
+        flex-direction: column;
+    }
+
+    nav {
+        flex-direction: column;
+    }
+
+    ul {
+        margin-bottom: 15px;
+    }
+
+    a {
+        padding: 8px 15px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .navbar-container h2 {
+        font-size: 2rem;
+    }
+
+    a {
+        padding: 6px 12px;
+        font-size: 0.9rem;
+    }
+}
